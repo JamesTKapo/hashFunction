@@ -1,2 +1,6 @@
 # hashFunction
-Mapping the key elements into a hash table..
+Mapping key elements into a hash table.
+
+This program is only an example that I possess the knowledge and understanding of how hashFunctions work through one to one and many to many to many functions. This code is from the public forum "Youtube" and the code does not belong to be me.
+
+Mapping the key elements into a hash table. I decided to take on this project as I wanted to gain a better understanding of hashing and linked lists. After watching a few videos I created a diagram to help myself grasp exactly how the function worked and the different sub-functions to enable it to process the information passing through it. One major issue I found while learning about Hash Functions is the collision issue. This occurs when two values are passed through an equation after calculating with the modulus operator "%", calculate to the same values and end up holding the same space inside the table. Through my investigation, I came to realize the many methods to tackle this issue such as Linear Probing and Quadratic Probing. Furthermore, I concluded that Quadratic Probing is the best option for tackling the collision issue as instead of Linear Probing were storing a lot of elements in one place on the table would cause the equations process time to decrease, instead, we can store the elements far away with Quadratic Probing from each other to mitigate the collision of elements.
